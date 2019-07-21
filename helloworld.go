@@ -2,7 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
+// Greeting says 'Hello world'.
+func Greeting() string {
 	msg := "Hello world\n"
+	return msg
+}
+
+func main() {
+	msg := Greeting()
 	fmt.Printf(msg)
 }
